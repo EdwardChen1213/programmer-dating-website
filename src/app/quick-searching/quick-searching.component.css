@@ -1,0 +1,10 @@
+.searching-box{
+    text-align: center;
+    margin-top: 50px;
+}
+.searching-box select{
+    margin-left: 10px;
+}
+.searching-box span{
+    margin-right: 30px;
+ }
