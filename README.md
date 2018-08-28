@@ -36,7 +36,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * A function should not exceed 75 lines at most.
 ### Naming
 * Do follow a pattern that describes the symbol's feature then its type. The recommended pattern is `feature.type.**.`.
-  * Component ---   `***.component.ts|html|scss`
+  * Component ---   `***.component.ts|html|css`
   * Module ---   `***.module.ts`
   * Routing ---   `***-routing.module.ts`
   * Service ---   `***.service.ts`
