@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { QuickSearchingComponent } from './quick-searching/quick-searching.component';
-import { HomePageComponent } from './home-page/home-page.component';
+import { HomepageComponent} from "./homepage/homepage.component";
 import { AppRoutingModule } from './/app-routing.module';
 import { MyCenterComponent } from './my-center/my-center.component';
 import { ActivityComponent } from './activity/activity.component';
@@ -14,7 +14,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
   declarations: [
     AppComponent,
     QuickSearchingComponent,
-    HomePageComponent,
+    HomepageComponent,
     MyCenterComponent,
     ActivityComponent,
     LoginComponent,
