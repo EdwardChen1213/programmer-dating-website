@@ -10,6 +10,8 @@ mongoose.connect('mongodb://localhost:27017', { useNewUrlParser: true });
 
 const User = mongoose.model('User', {
     name: {type: String, index: true},  // Use an index on name for faster querying
+    gender: String,
+    email: String,
     age: Number,
     location: [String],
 });
