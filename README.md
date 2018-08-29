@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Cheng Zhu 13000359
 Yilun Chen 12781961
 
-##
+## Database
 This project uses mongodb to set up the database and uses mongoose help manage the data.
 
 ## Development server
