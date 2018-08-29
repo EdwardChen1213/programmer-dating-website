@@ -7,8 +7,8 @@ import { HomepageComponent} from './homepage/homepage.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { MyCenterComponent } from './my-center/my-center.component';
 import { ActivityComponent } from './activity/activity.component';
-import { LoginComponent } from './login/login.component';
-import { SignUpComponent } from './sign-up/sign-up.component';
+import { LoginComponent } from './user/login/login.component';
+import { SignUpComponent } from './user/sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
