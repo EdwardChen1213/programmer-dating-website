@@ -1,19 +1,17 @@
 <div>
-<div>
-  <span style="margin-left: 550px; font-size: 30px;" > Welcome To Developer Dating!</span>
-    <button routerLink="/signup"style="float: right; "type="button"><a style="font-size: 20px;">Sign up</a></button>
-  <button routerLink="/login" style="float: right;" type="button"><a style="font-size: 20px;">Log In</a></button>
+  <div>
+    <span style="margin-left: 550px; font-size: 30px;"> Welcome To Developer Dating!</span>
+    <button routerLink="/signup" style="float: right; " type="button"><a style="font-size: 20px;">Sign up</a></button>
+    <button routerLink="/login" style="float: right;" type="button"><a style="font-size: 20px;">Log In</a></button>
 
-</div>
-   <!--showing quick-searching module-->
-<app-quick-searching></app-quick-searching>
-  <!--This is the place to show the navigation-->
-<nav>
-  <button type="button" routerLink="/homepage"><a>HomePage</a></button>
-  <button type="button" routerLink="/mycenter"><a>My Center</a></button>
-  <button type="button" routerLink="/activity"><a>Activity</a></button>
-</nav>
-<!--This is the place to show the output of routing.-->
-<router-outlet></router-outlet>
-<footer>
-</footer>
+  </div>
+  <app-quick-searching></app-quick-searching>
+  <nav>
+    <button type="button" routerLink="/homepage"><a>HomePage</a></button>
+    <button type="button" routerLink="/mycenter"><a>My Center</a></button>
+    <button type="button" routerLink="/activity"><a>Activity</a></button>
+  </nav>
+
+  <router-outlet></router-outlet>
+  <footer>
+  </footer>
