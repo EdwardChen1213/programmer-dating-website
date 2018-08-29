@@ -1,13 +1,20 @@
-# Dating
+# Programmer-dating-website
+This project sets up a website for programmers to make friends. 
 
+It has mainly three modules:
+The user module is used to edit the users information and check the friend list.
+The activity module offers avtivities for programmers to participate in.
+The homepage is where the users viewing the others' information.
+
+This prokject is based on the M(mangodb)E(express)A(Angular)N(Node) structure.
 This project developed by Angular2. Make sure you have installed node.js.
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
 # Developers
 
 Cheng Zhu 13000359
 Yilun Chen 12781961
+Bin Li 12520817
 
 ## Database
 This project uses mongodb to set up the database and uses mongoose help manage the data.
