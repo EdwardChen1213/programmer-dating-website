@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
+import {FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { QuickSearchingComponent } from './quick-searching/quick-searching.component';
 import { HomepageComponent} from './homepage/homepage.component';
@@ -18,11 +20,15 @@ import { SignUpComponent } from './user/sign-up/sign-up.component';
     MyCenterComponent,
     ActivityComponent,
     LoginComponent,
-    SignUpComponent
+    SignUpComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
